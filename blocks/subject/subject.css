@@ -1,0 +1,10 @@
+.subject {
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    width: 100%;
+    background: no-repeat url(../../img/subj__background.jpg);
+    background-size: contain;
+}

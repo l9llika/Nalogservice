@@ -1,0 +1,8 @@
+.phone__text {
+    color: rgb(139, 141, 2);
+    font-weight: 600;
+}
+.phone__text_bottom {
+    font-weight: normal;
+    color: #000;
+}

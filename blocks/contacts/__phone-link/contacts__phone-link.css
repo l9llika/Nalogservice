@@ -1,0 +1,19 @@
+.contacts__phone-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+.contacts__phone-link_large {
+    font-size: 50px;
+}
+.contacts__phone-link_small {
+    font-size: 18px;
+}
+.contacts__phone-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 198,6);
+}
+.contacts__phone-link_bottom:hover {
+    text-decoration-color: #FFF;
+}

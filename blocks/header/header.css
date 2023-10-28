@@ -1,0 +1,8 @@
+.header {
+    margin: auto;
+    width: 1140px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Neo Sans Pro';
+}

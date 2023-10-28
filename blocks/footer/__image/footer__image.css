@@ -1,0 +1,6 @@
+.footer__image {
+    width: 150px;
+}
+.footer__image:hover {
+    transform: rotateY(30deg) rotateX(30deg);
+}

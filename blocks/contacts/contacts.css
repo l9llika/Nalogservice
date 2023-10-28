@@ -1,0 +1,14 @@
+.contacts {
+    width: 400px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.contacts_bottom {
+    padding: 30px;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: rgb(255, 198,6);
+    align-items: center;
+    justify-content: space-around;
+}

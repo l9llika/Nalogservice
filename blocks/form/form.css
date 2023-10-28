@@ -1,0 +1,10 @@
+.form {
+    padding: 20px 38px;
+    width: 380px;
+    height: 470px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Neo Sans Pro';
+}

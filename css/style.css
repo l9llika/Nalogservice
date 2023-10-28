@@ -26,27 +26,6 @@ body {
 u {
     text-decoration-color: rgb(255, 198,6);
 }
-h1,
-h2,
-h3 {
-    font-family: 'Neo Sans Pro';
-    display: inline;
-}
-h4 {
-    font-family: 'Neo Sans Pro';
-    font-size: 1.8rem;
-    color:rgb(139, 141, 2);
-    display: inline;
-    margin: 0px;
-}
-h6  {
-    font-family: 'Neo Sans Pro';
-    display: inline;
-    font-size: 5rem;
-}
-h7 {
-    font-family: 'Neo Sans Pro Light';
-}
 .wrapper {
     padding-top: 2rem;
     padding-bottom: 2rem;

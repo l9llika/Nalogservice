@@ -6,48 +6,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
     <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="pages/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="top-header">
-            <div class="top-logo"><a href="#" class="header-logo"><img src="img/logo.png" alt="logo"></a> 
-                <div class="logo-name">НАЛОГ<br>СЕРВИС<h4><p>КОНСАЛТИНГОВАЯ<p>КОМПАНИЯ</p></h4></div></div>
-            <div class="top-header__text">
-                <div class="top-header__phone">
-                    <a href="tel:+73823982222" class="top-header__phone_link">8 (3823)</a>
-                    <a href="tel:+73823982222" class="top-header__phone_link2"> 98-22-22</a>
-                </div>
-                <div class="top_header__contacts"><ul>
-                    <li><h4>Моб.:</h4> <a href="tel:+79138822922" class="mobile-link">8 (913) 882-2922</a> </li>
-                    <li><h4>Моб.:</h4> <a href="tel:+79095476350" class="mobile-link">8 (909) 547-6350</a> </li>
-                    <li><h4>E-mail:</h4> <a href="mailto:nalogs@bk.ru" class="mobile-link">nalogs@bk.ru</a> </li>
-                </ul>
-                </div>
-                <div class="top_header__time">
-                <ul>
-                    <li><h4>Пн. - Пт.:</h4> 9:00 - 18:00</li>
-                    <li><h4>Сб.:</h4> 10:00 - 15:00</li>
-                    <li><h4>Вс.:</h4> выходной</li>
-                </ul>
-                </div>
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="logo" class="logo__image"></a>
+            <div class="logo__caption">
+            <h1 class="logo__title">
+                НАЛОГ
+                СЕРВИС
+            </h1>
+            <h2 class="logo__subtitle">
+                КОНСАЛТИНГОВАЯ
+                КОМПАНИЯ
+            </h2>
             </div>
         </div>
+        <div class="contacts">
+            <div>
+                <a href="tel:+73823982222" class="contacts__phone-link">8 (3823) <span class="contacts__phone-link_large">98-22-22</span></a>
+            </div>
+            <ul class="contacts__phone-add">
+                <li><span class="phone__text">Моб.:</span> <a href="tel:+79138822922" class="contacts__phone-link contacts__phone-link_small">8 (913) 882-2922</a> </li>
+                <li><span class="phone__text">Моб.:</span> <a href="tel:+79095476350" class="contacts__phone-link contacts__phone-link_small">8 (909) 547-6350</a> </li>
+                <li><span class="phone__text">E-mail:</span> <a href="mailto:nalogs@bk.ru" class="contacts__phone-link contacts__phone-link_small">nalogs@bk.ru</a> </li> 
+            </ul>
+            <ul class="contacts__phone-add">
+                <li><span class="phone__text">Пн. - Пт.:</span> 9:00 - 18:00</li>
+                <li><span class="phone__text">Сб. - Вс.:</span> выходной</li>
+            </ul>
+        </div>
     </div>
-    <div class="top-menu">
-        <div class="top-menu_item"><a href="#" class="top-menu_link">УСЛУГИ</a></div>
-        <div class="top-menu_item"><a href="#" class="top-menu_link">О НАС</a></div>
-        <div class="top-menu_item"><a href="#" class="top-menu_link">КОНТАКТЫ</a></div>
-    </div>
-    <div class="wrapper2"> 
-        <div class="main-content">
-        <div class="main-subject"><h1>ЛЮБЫЕ КОНСУЛЬТАЦИИ<br>
-            ПО <u>НАЛОГАМ</u> И <u>НАЛОГОВОМУ</u><br>
-            ЗАКОНОДАТЕЛЬСТВУ</h1>
-        </div> 
-        
-        <div class="main_forma"><u>Нужна консультация?</u><br>
-            <h7>Закажите обратный звонок</h7>
-            <form action="/" name="main_consult" method="POST">
+    <!-- ./header -->
+    <nav class="navigation">
+        <ul class="navigation__wrapper">
+            <li class="navigation__item"><a href="#" class="navigation__link">УСЛУГИ</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">О НАС</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">КОНТАКТЫ</a></li>
+        </ul>
+    </nav>
+    <!-- ./navigation -->
+<main class="main">
+    <article class="subject">
+        <h1 class="subject__title">
+            ЛЮБЫЕ КОНСУЛЬТАЦИИ
+            ПО НАЛОГАМ И НАЛОГОВОМУ
+            ЗАКОНОДАТЕЛЬСТВУ
+        </h1>
+        <div class="form">
+            <span class="form__title">Нужна консультация?</span>
+            <span class="form__subtitle">Закажите обратный звонок</span>
+            <form action="/" name="form__wrapper" method="POST">
                 <p><input class="main_input" name="Name" placeholder="Ваше имя:"></p>
                 <p><input class="main_input" name="e-mail" placeholder="Ваше e-mail:"></p>
                 <p><input class="main_input" name="tnumber" placeholder="Ваш номер телефона:"></p>
@@ -55,152 +65,158 @@
                 <p><button class="main_button">Отправить</button></p>
             </form>
         </div>
-</div>
-<div class="wrapper3">
-    <div class="content_spektr">
-        <div class="content_ip">
-            <div class="content_ip_icon"><i class="fas fa-user-tie"></i></div>
-            <h1 class="content_ip_subject">ИНДИВИДУАЛЬНЫМ <br>ПРЕДПРИНИМАТЕЛЯМ</h1>
-            <h1 class="content_ip_content">Регистрация и комплексное <br> абонентское обслуживание:</h1>
-            <div class="content_ip_spisok1">
-            <ul class="content_ip_spisok">
-                <li>— представительство в налоговых  <br>
-                    органах и внебюджетных фондах;</li>
-                <li>— ведение учета, составление <br>
-                    отчетности, сдача в ИФНС и фонды;</li>
-                <li>— ведение кадрового учета;</li>
-                <li>— оптимизация налогообложения.</li>
+    </article>
+    <section class="about">
+        <div class="about__block">
+            <i class="fas fa-user-tie about__icon"></i>
+            <h2 class="about__title">ИНДИВИДУАЛЬНЫМ ПРЕДПРИНИМАТЕЛЯМ</h2>
+            <h3 class="about__subtitle">Регистрация и комплексное абонентское обслуживание:</h3>
+            <ul class="about__list">
+                <li class="about__list-item">
+                    представительство в налоговых
+                    органах и внебюджетных фондах;
+                </li>
+                <li class="about__list-item">
+                    ведение учета, составление
+                    отчетности, сдача в ИФНС и фонды;
+                </li>
+                <li class="about__list-item">ведение кадрового учета;</li>
+                <li class="about__list-item">оптимизация налогообложения.</li>
             </ul>
-            </div>
-            <h1 class="content_ip_content2">Составление отчетности:</h1>
-            <div class="content_ip_spisok1">
-                <ul class="content_ip_spisok">
-                    <li>— ОСН, УСН, ЕНВД, ЕСХН</li>
-                </ul>
+            <h3 class="about__subtitle">Составление отчетности:
+            </h3>
+            <ul class="about__list">
+                <li class="about__list-item">ОСН, УСН, ЕНВД, ЕСХН</li>
+            </ul>
+        </div>
+        <!-- ./about__block -->
+        <div class="about__block">
+            <i class="fas fa-users about__icon"></i>
+            <h2 class="about__title">ЮРИДИЧЕСКИМ ЛИЦАМ</h2>
+            <h3 class="about__subtitle">Регистрация и ликвидация</h3>
+            <h3 class="about__subtitle">Ведение бухгалтерского и налогового учета</h3>
+            <div class="about__icon-wrapper">
+                <img src="" alt="" class="about__icon">
+                <img src="" alt="" class="about__icon">
+                <img src="" alt="" class="about__icon">
+                <div class="content_ul_tks_ico">
+                    <i class="fas fa-arrow-right" id="arrow_left"></i>
+                    <i class="fas fa-arrow-right" id="arrow_top"></i>
+                    <i class="fas fa-arrow-right" id="arrow_right"></i>                             
                 </div>
-        </div>
-        <div class="content_ul">
-            <div class="content_ip_icon"><i class="fas fa-users"></i></div>
-            <h1 class="content_ip_subject">ЮРИДИЧЕСКИМ<br>ЛИЦАМ</h1>
-            <h1 class="content_ip_content">Регистрация и ликвидация</h1>
-            <div class="content_ip_content">
-                <h1 class="content_ip_content2">Ведение бухгалтерского<br> и налогового учета</h1>
-            <div class="content_ip_spisok1">
-                <ul class="content_ip_spisok">
-                    <li></li>
-                </ul>
+                <div class="content_ul_tks_ico2">
+                <i class="far fa-file-alt"></i>
                 </div>
+                <div class="content_ul_tks">ОТПРАВКА<br>ОТЧЕТНОСТИ<br>ПО ТКС</div>
             </div>
-            <div class="content_ul_tks_ico">
-                <i class="fas fa-arrow-right" id="arrow_left"></i>
-                <i class="fas fa-arrow-right" id="arrow_top"></i>
-                <i class="fas fa-arrow-right" id="arrow_right"></i>                             
-            </div>
-            <div class="content_ul_tks_ico2">
-            <i class="far fa-file-alt"></i>
-            </div>
-            <div class="content_ul_tks">ОТПРАВКА<br>ОТЧЕТНОСТИ<br>ПО ТКС</div>
+            <img src="" alt="" class="about__image">
+            <span class="about__text"></span>
         </div>
-        <div class="content_fizl">
-            <div class="content_ip_icon"><i class="fas fa-user"></i></div>
-            <h1 class="content_ip_subject">ФИЗИЧЕСКИМ <br>ЛИЦАМ</h1>
-            <h1 class="content_ip_content">Оформление налоговых вычетов</h1>
-            <div class="content_ip_spisok1">
-            <ul class="content_ip_spisok">
-                <li>— имущественный (при покупке жилья);</li>
-                <li>— социальный (лечение/обучение);</li>
+        <!-- ./about__block -->
+        <div class="about__block">
+            <i class="fas fa-user-tie about__icon"></i>
+            <h2 class="about__title">ФИЗИЧЕСКИМ ЛИЦАМ</h2>
+            <h3 class="about__subtitle">Оформление налоговых вычетов</h3>
+            <ul class="about__list">
+                <li class="about__list-item">имущественный (при покупке жилья);</li>
+                <li class="about__list-item">социальный (лечение/обучение);</li>
             </ul>
-            </div>
-            <h1 class="content_ip_content">Оформление декларации о доходах</h1>
-            <div class="content_ip_spisok1">
-            <ul class="content_ip_spisok">
-                <li>— продажа (недвижимости/автомобиля);</li>
-                <li>— аренда и иные доходы;</li>
+            <h3 class="about__subtitle">Оформление декларации о доходах</h3>
+            <ul class="about__list">
+                <li class="about__list-item">продажа (недвижимости/автомобиля);</li>
+                <li class="about__list-item">аренда и иные доходы;</li>
             </ul>
-            </div>
-            <h1 class="content_ip_content">Отправка деклараций в ИФНС</h1>
+            <h3 class="about__subtitle">Отправка деклараций в ИФНС</h3>
         </div>
-</div>
-</div>
-<div class="wrapper4">
-    <div class="wrp4_content">
-        <h1 class="wrp4_memu_name">УСЛУГИ</h1>
-        <div class="wrp4_cont_usl">
-            <div class="usl1">
-                <h1>Оформление декларации о доходах <br><br> <u>от 1500 ₽</u></h1>
-                <br><br>
-                <h7>Нужно наверное чтото сюда написать 
-                    что бы было хорошо вот както так 
-                    а может и вот так как то лишь 
-                    бы текст бла бла бла бла а может и бла? </h7>
-                    <p><button class="main_button">Заказать</button></p>
+        <!-- ./about__block -->
+    </section>
+    <!-- ./about -->
+    <section class="services">
+        <h2 class="services__title">УСЛУГИ</h2>
+        <div class="services__wrapper">
+            <div class="services__item">
+                <h3 class="services__caption">Оформление декларации о доходах</h3>
+                <span class="services__price">от 1500 ₽</span>
+                <span class="services__text">
+                    Подготовим и оформим для вас декларацию о доходах и все необходимые документы
+                </span>
+                <button class="services__button"><a href="#" class="services__link">Заказать</a></button>
             </div>
-            <div class="usl1"></div>
-            <div class="usl1"></div>
-            <div class="usl1"></div>            
-        </div>
-    </div>
-</div>
-<div class="wrapper5">
-    <div class="wrp5_content">
-        <h1 class="wrp5_menu_name">О НАС</h1>
-        <div class="wrp5_content1">
-            <div class="founder_foto"></div>
-            <div class="about_us">
-                <h1>founder_ZIGR_IA</h1><br>
-                <h7>Профессиональная Бухгалтерская Компания  создана в 2000 году – мы ровесники века и это значит, что мы должны 
-                    идти в ногу со временем. В 2019 году нам исполнилось 19 лет. За время работы на рынке бухгалтерских услуг 
-                    Компания приобрела высокий уровень стабильности, сформировала базу знаний и обширную клиентскую базу.
-                <br><br>
-                Сегодня наш коллектив представляет собой команду высококвалифицированных специалистов, имеющих мощную 
-                материально – техническую базу и способных оперативно решать сложные задачи Заказчиков в области 
-                бухгалтерского учета, налогообложения.</h7><br><br>
-                <h1>Как мы работаем???</h1><br>
-                <h7>Профессиональная Бухгалтерская Компания  создана в 2000 году – мы ровесники века и это значит, что мы должны 
-                    идти в ногу со временем. В 2019 году нам исполнилось 19 лет. За время работы на рынке бухгалтерских услуг 
-                    Компания приобрела высокий уровень стабильности, сформировала базу знаний и обширную клиентскую базу.
-                <br><br>
-                Сегодня наш коллектив представляет собой команду высококвалифицированных специалистов, имеющих мощную 
-                материально – техническую базу и способных оперативно решать сложные задачи Заказчиков в области 
-                бухгалтерского учета, налогообложения.</h7>
+            <div class="services__item">
+                <h3 class="services__caption">Оформление налогового вычета</h3>
+                <span class="services__price">от 1000 ₽</span>
+                <span class="services__text">
+                    Консультанты по налогам и сборам помогут составить 
+                    декларацию на налоговый вычет (имущественный вычет, социальные вычеты).
+                </span>
+                <button class="services__button"><a href="#" class="services__link">Заказать</a></button>
+            </div>
+            <div class="services__item">
+                <h3 class="services__caption">Регистрация и комплексное обслуживание ИП и ООО</h3>
+                <span class="services__price">от 5000 ₽</span>
+                <span class="services__text">
+                    За годы работы наши юристы оказали услуги по подготовке 
+                    документов для регистрации  ИП ООО свыше 1500 организациям.
+                </span>
+                <button class="services__button"><a href="#" class="services__link">Заказать</a></button>
+            </div>
+            <div class="services__item">
+                <h3 class="services__caption">Ведение бухгалтерского и налогового учета</h3>
+                <span class="services__price">от 4500 ₽</span>
+                <span class="services__text">
+                    Мы профессионально ведем налоговый и бухгалтерский учет для наших клиентов
+                </span>
+                <button class="services__button"><a href="#" class="services__link">Заказать</a></button>
             </div>
         </div>
-    </div>
-</div>
-<div class="wrapper6">
-    <div class="wrp6_content">
-            <h1 class="wrp6_menu_name">КОНАТАКТЫ</h1>
-        <div class="wrp6_yandex_map">
+    </section>
+    <section class="founder">
+        <h2 class="founder__title">О НАС</h2>
+        <div class="founder__wrapper">
+            <img src="./img/founder.jpg" alt="Зибаев Иван Андреевич" class="founder__image">
+            <div class="founder__text-block">
+                <h3 class="founder__caption">Зибаев Иван Андреевич</h3>
+                <p class="founder__text">
+                    Профессиональная Бухгалтерская Компания создана в 2000 году – мы ровесники века и это значит, 
+                    что мы должны идти в ногу со временем. В 2019 году нам исполнилось 19 лет. 
+                    За время работы на рынке бухгалтерских услуг Компания приобрела высокий уровень стабильности, 
+                    сформировала базу знаний и обширную клиентскую базу.
+                </p>
+                <p class="founder__text">
+                    Сегодня наш коллектив представляет собой команду высококвалифицированных специалистов, 
+                    имеющих мощную материально – техническую базу и способных оперативно решать сложные задачи 
+                    Заказчиков в области бухгалтерского учета, налогообложения.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <h2 class="map__title">КОНТАКТЫ</h2>
+        <div class="map__wrapper">
             <div style="position:relative;overflow:hidden;">
-            <a href="https://yandex.ru/maps/org/nalog_servis/47847091046/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Налог-Сервис</a>
-            <a href="https://yandex.ru/maps/11351/seversk/category/legal_services/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Юридические услуги в Северске</a>
-            <iframe src="https://yandex.ru/map-widget/v1/-/CWXQfDyU" width="1280" height="600px" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>
+                <a href="https://yandex.ru/maps/org/nalog_servis/47847091046/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Налог-Сервис</a>
+                <a href="https://yandex.ru/maps/11351/seversk/category/legal_services/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Юридические услуги в Северске</a>
+                <iframe src="https://yandex.ru/map-widget/v1/-/CWXQfDyU" width="1280" height="600px" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe></div>    
         </div>
-    </div>
-</div>
-<div class="subfooter">
-    <div class="subfooter__time">
-        <ul>
-            <li><h2>Понедельник &mdash; пятница</h2></li>
-            <li><h4>Пн. - Пт.:</h4> 9:00 - 18:00</li>
-            <li><h4>Сб.:</h4> 10:00 - 15:00</li>
-            <li><h4>Вс.:</h4> выходной</li>
-        </ul>
-    </div>
-    <div class="subfooter_vertical_slash"></div>
-    <div class="subfooter__contacts">
-    <ul>
-        <li><h2>г.Северск, пр. Коммунистический, 38</h2></li>
-        <li><h4>Моб.:</h4> <a href="tel:+79138822922" class="mobile-link">8 (913) 882-2922</a> </li>
-        <li><h4>Моб.:</h4> <a href="tel:+79095476350" class="mobile-link">8 (909) 547-6350</a> </li>
-        <li><h4>E-mail:</h4> <a href="mailto:nalogs@bk.ru" class="mobile-link">nalogs@bk.ru</a> </li>
-    </ul>
-    </div>
-</div>
-<footer>
-    <h1 class="year">© 2020 Налог Сервис</h1>
-    <div class="manufacturer">
-        <a href="rezay.ru" class="manufacturer"><img src="/img/logo_man.png" alt="rezay">
-        </a></div>
+    </section>
+    <section class="contacts contacts_bottom">
+            <ul class="contacts__phone-add contacts__phone-add_bottom">
+                г.Северск, пр. Коммунистический, 38
+                <li><span class="phone__text phone__text_bottom">Моб.:</span> <a href="tel:+79138822922" class="contacts__phone-link contacts__phone-link_small contacts__phone-link_bottom">8 (913) 882-2922</a> </li>
+                <li><span class="phone__text phone__text_bottom">Моб.:</span> <a href="tel:+79095476350" class="contacts__phone-link contacts__phone-link_small contacts__phone-link_bottom">8 (909) 547-6350</a> </li>
+                <li><span class="phone__text phone__text_bottom">E-mail:</span> <a href="mailto:nalogs@bk.ru" class="contacts__phone-link contacts__phone-link_small contacts__phone-link_bottom">nalogs@bk.ru</a> </li> 
+            </ul>
+            <div class="contacts__divider"></div>
+            <ul class="contacts__phone-add contacts__phone-add_bottom">
+                Понедельник - пятница
+                <li><span class="phone__text phone__text_bottom">Пн. - Пт.:</span> 9:00 - 18:00</li>
+                <li><span class="phone__text phone__text_bottom">Сб. - Вс.:</span> выходной</li>
+            </ul>
+    </section>
+</main>
+<!-- ./main -->
+<footer class="footer">
+    <h3 class="footer__heading">© 2020 Налог Сервис</h3>
+    <a href="https://github.com/l9llika" class="footer__link"><img src="/img/rzaev__webdev.png" alt="rzaev" class="footer__image"></a>
 </footer>
 </body>
