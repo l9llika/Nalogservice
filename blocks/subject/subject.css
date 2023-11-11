@@ -1,10 +1,16 @@
 .subject {
     margin: auto;
-    padding-top: 50px;
+    padding: 50px 20px;
     display: flex;
     justify-content: space-around;
     height: 700px;
     width: 100%;
     background: no-repeat url(../../img/subj__background.jpg);
     background-size: contain;
+}
+@media (max-width: 1024px) { 
+    .subject {
+        flex-direction: column;
+        background-size: cover;
+    }
 }

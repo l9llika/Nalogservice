@@ -3,4 +3,17 @@
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    -webkit-text-stroke: 2px #FFFFFF;
+}
+@media (max-width: 1024px) { 
+    .subject__title {
+        font-size: 36px;
+        -webkit-text-stroke: 1px #FFFFFF;
+        width: 100%;
+    }
+}
+@media (max-width: 830px) { 
+    .subject__title {
+        font-size: 30px;
+    }
 }

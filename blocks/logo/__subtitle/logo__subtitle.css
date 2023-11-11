@@ -5,3 +5,9 @@
     font-size: 18px;
     color: rgb(139, 141, 2);
 }
+
+@media (max-width: 830px) { 
+    .logo__subtitle {
+        font-size: 14px;
+    }
+}

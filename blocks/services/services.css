@@ -3,3 +3,9 @@
     width: 1140px;
     padding: 50px 0;
 }
+@media (max-width: 1024px) { 
+    .services {
+        width: 100%;
+        padding: 50px;
+    }
+}

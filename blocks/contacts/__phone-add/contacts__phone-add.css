@@ -8,3 +8,9 @@
     font-size: 24px;
     font-weight: 700;
 }
+
+@media (max-width: 830px) { 
+    .contacts__phone-add {
+        font-size: 16px;
+    }
+}

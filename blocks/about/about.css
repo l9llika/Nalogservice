@@ -1,6 +1,12 @@
 .about {
     margin: auto;
-    width: 1140px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 830px) { 
+    .about {
+        width: 100%;
+    }
 }

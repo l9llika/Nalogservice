@@ -17,3 +17,12 @@
 .contacts__phone-link_bottom:hover {
     text-decoration-color: #FFF;
 }
+
+@media (max-width: 830px) { 
+    .contacts__phone-link {
+        font-size: 18px;
+    }
+    .contacts__phone-link_small {
+        font-size: 14px;
+    }
+}

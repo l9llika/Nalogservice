@@ -6,3 +6,8 @@
     font-weight: normal;
     color: #000;
 }
+@media (max-width: 830px) { 
+    .phone__text {
+        font-size: 14px;
+    }
+}

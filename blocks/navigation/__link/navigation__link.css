@@ -8,3 +8,9 @@
     color: #FFF;
     cursor: pointer;
 }
+
+@media (max-width: 830px) { 
+    .navigation__link {
+        font-size: 24px;
+    }
+}

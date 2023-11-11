@@ -6,3 +6,9 @@
     justify-content: space-between;
     font-family: 'Neo Sans Pro';
 }
+
+@media (max-width: 1024px) { 
+    .header {
+        width: 100%;
+    }
+}
