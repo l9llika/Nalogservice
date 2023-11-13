@@ -12,3 +12,10 @@
     align-items: center;
     justify-content: space-around;
 }
+@media (max-width: 650px) { 
+    .contacts_bottom {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: end;
+    }
+}

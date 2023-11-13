@@ -11,3 +11,8 @@
         font-size: 14px;
     }
 }
+@media (max-width: 375px) { 
+    .logo__subtitle {
+        width: 100%;
+    }
+}

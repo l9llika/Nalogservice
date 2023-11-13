@@ -1,3 +1,8 @@
 .logo {
     display: flex;
 }
+@media (max-width: 650px) { 
+    .logo {
+        flex-direction: column;
+    }
+}

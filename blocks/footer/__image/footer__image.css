@@ -4,3 +4,8 @@
 .footer__image:hover {
     opacity: 0.6;
 }
+@media (max-width: 650px) { 
+    .footer__image{
+        width: 70px;
+    }
+}

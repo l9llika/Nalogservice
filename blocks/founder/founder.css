@@ -3,3 +3,8 @@
     width: 100%;
     padding: 50px;
 }
+@media (max-width: 650px) { 
+    .founder {
+        padding: 10px;
+    }
+}

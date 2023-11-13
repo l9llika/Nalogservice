@@ -2,3 +2,9 @@
     font-size: 18px;
     font-family: 'Neo Sans Pro Light';
 }
+
+@media (max-width: 650px) { 
+    .services__text_mobile {
+        display: none;  
+    }
+}

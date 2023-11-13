@@ -1,0 +1,6 @@
+
+@media (max-width: 650px) { 
+    .about__icon-wrapper {
+        display: none;
+    }
+}

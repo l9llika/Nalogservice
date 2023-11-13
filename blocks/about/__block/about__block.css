@@ -4,3 +4,8 @@
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 400px) { 
+    .about__block {
+        width: 100%;
+    }
+}

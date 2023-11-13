@@ -34,6 +34,7 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__subtitle/form__subtitle.css);
+@import url(../blocks/form/__input/form__input.css);
 /* services */ 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
@@ -56,6 +57,7 @@
 @import url(../blocks/map/map.css);
 @import url(../blocks/map/__title/map__title.css);
 @import url(../blocks/map/__wrapper/map__wrapper.css);
+@import url(../blocks/map/__block/map__block.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__heading/footer__heading.css);

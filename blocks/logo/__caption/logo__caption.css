@@ -3,3 +3,8 @@
     margin-left: 20px;
     flex-direction: column;
 }
+@media (max-width: 650px) { 
+    .logo__caption {
+        margin: 0;
+    }
+}

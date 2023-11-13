@@ -2,3 +2,9 @@
     width: 500px;
     text-align: right;
 }
+@media (max-width: 650px) { 
+    .founder__text-block {
+        width: 100%;
+        text-align: left;
+    }
+}

@@ -1,3 +1,8 @@
 .services__caption {
     font-size: 30px;
 }
+@media (max-width: 650px) { 
+    .services__caption {
+        font-size: 24px;
+    }
+}

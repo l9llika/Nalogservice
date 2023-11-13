@@ -26,3 +26,13 @@
         font-size: 14px;
     }
 }
+@media (max-width: 650px) { 
+    .contacts__phone-link_large {
+        font-size: 24px;
+    }
+}
+@media (max-width: 475px) { 
+    .contacts__phone-link_mobile {
+        display: none;
+    }
+}

@@ -12,5 +12,11 @@
     .subject {
         flex-direction: column;
         background-size: cover;
+        align-items: center;
+    }
+}
+@media (max-width: 650px) { 
+    .subject {
+        padding: 10px;
     }
 }

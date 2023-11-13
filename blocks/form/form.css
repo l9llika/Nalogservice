@@ -8,3 +8,9 @@
     color: black;
     font-family: 'Neo Sans Pro';
 }
+@media (max-width: 400px) { 
+    .form {
+        padding: 20px;
+        width: 300px;
+    }
+}
